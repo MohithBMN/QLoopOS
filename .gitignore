@@ -1,0 +1,45 @@
+
+# Build outputs
+build/
+cmake-build-*/
+
+# CMake and Ninja
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Compiled files
+*.o
+*.a
+*.so
+*.so.*
+*.bin
+
+# Qt generated files
+.qmlcache/
+.qt/
+moc_*.cpp
+qrc_*.cpp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE and editor
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
